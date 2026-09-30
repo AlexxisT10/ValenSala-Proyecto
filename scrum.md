@@ -17,12 +17,21 @@
 
 ## Sprint Planificación (Sprint Planning)
 
+Linux
+Apache
+PHP
+Postgres
+HTML
+CSS
+
+Hemos elegido estos lenguajes porque es lo que mas nos conviene en nuestro proyecto.
+
 ### Datos del Sprint
-- **Número de Sprint:** Sprint # [X]
-- **Fecha de Inicio:** [DD/MM/AAAA]
-- **Fecha de Fin:** [DD/MM/AAAA]
+- **Número de Sprint:** "Creación de diagramas y vistas" [1]
+- **Fecha de Inicio:** [30/09/2026]
+- **Fecha de Fin:** [14/10/2026]
 - **Objetivo del Sprint (Sprint Goal):** 
-  > *Ejemplo: Implementar la autenticación de usuarios y la estructura básica de la base de datos para la API REST.*
+  > *Ejemplo: Crear un diagrama*
 
 ### Historias de Usuario Seleccionadas (Sprint Backlog)
 | ID Historia | Descripción Corta | Asignado a | Estimación (Puntos/Horas) | Estado Inicial |
@@ -69,3 +78,4 @@
 ### ¿Qué no funcionó bien? (Stop)
 
 ### ¿Qué podemos mejorar para el próximo Sprint? (Start/Try)
+
