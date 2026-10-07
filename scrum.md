@@ -4,7 +4,7 @@
 
 ## Información General del Proyecto
 - **Nombre del Proyecto:** ValenSala
-- **Equipo / Grupo:** RafaComePito
+- **Equipo / Grupo:** 3
 - **Integrantes:**
   - Alexis - *Scrum Master / Dev*
   - Rafael - *Dev*
@@ -17,28 +17,19 @@
 
 ## Sprint Planificación (Sprint Planning)
 
-Linux
-Apache
-PHP
-Postgres
-HTML
-CSS
-
-Hemos elegido estos lenguajes porque es lo que mas nos conviene en nuestro proyecto.
-
 ### Datos del Sprint
 - **Número de Sprint:** "Creación de diagramas y vistas" [1]
 - **Fecha de Inicio:** [30/09/2026]
 - **Fecha de Fin:** [14/10/2026]
 - **Objetivo del Sprint (Sprint Goal):** 
-  > *Ejemplo: Crear un diagrama*
+  > Crear els diagrames del proyecte.
 
 ### Historias de Usuario Seleccionadas (Sprint Backlog)
 | ID Historia | Descripción Corta | Asignado a | Estimación (Puntos/Horas) | Estado Inicial |
 | :---: | :--- | :--- | :---: | :---: |
-| **HU-01** | Registro e inicio de sesión de usuarios (JWT) | [Nombre] | 5 pts | Pendiente |
-| **HU-02** | Diseño del esquema MongoDB / PostgreSQL | [Nombre] | 3 pts | Pendiente |
-| **HU-03** | Maquetación del Dashboard en React/Angular | [Nombre] | 8 pts | Pendiente |
+| **HU-01** | Com a desarrollador vuic tindre una plantilla del programa | [Raul] | 6 pts | Pendiente |
+| **HU-02** | Com a desarrollador vuic tindre una vista del proyecte | [Rafa] | 4 pts | Pendiente |
+| **HU-03** | Com a desarrollador vuic tindre una plantilla de base de dades | [Alexis] | 8 pts | Pendiente |
 
 ---
 
@@ -61,7 +52,7 @@ Hemos elegido estos lenguajes porque es lo que mas nos conviene en nuestro proye
 ---
 
 ## 🔎 Revisión del Sprint (Sprint Review)
-- **Fecha de la Demo:** [DD/MM/AAAA]
+- **Fecha de la Demo:** [07/10/2026]
 
 ### Funcionalidades Completadas e Incremento Entregado
 - [ ] **HU-01:** ...
