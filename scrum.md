@@ -37,17 +37,39 @@
 
 > *Nota: Esta sección se va completando en cada sesión/reunión diaria de sincronización (5-10 min).*
 
-### Fecha: [DD/MM/AAAA]
+### Fecha: [14/10/2026]
 
-#### [Nombre del Alumno 1]
+#### Alexis
 - **¿Qué hice ayer?:** 
+  Empece a pensar como hacer mi diagrama e/r, desde draw.io hice la primeras creaciones de tablas.
+
 - **¿Qué voy a hacer hoy?:** 
+  Hoy voy a terminar la creacion de tablas y empezar a hacer las relaciones y tener ya un diagrama e/r acabado.
+
 - **¿Tengo algún bloqueo/impedimento?:** *(Ninguno / Error en la conexión con la BD, falta definir endpoint, etc.)*
 
-#### [Nombre del Alumno 2]
+De momento no tengo un bloqueo, solamente pensar bien las relaciones y no tener fallos a la hora de crear la base de datos.
+
+#### Rafa
 - **¿Qué hice ayer?:** 
+He creado una estructura de paginas paras tener organizado mejor a la hora de hacer las vistas, tambien empece a hacer la vista de iniciar sesion de la web.
+
 - **¿Qué voy a hacer hoy?:** 
+Voy a avanzar las vistas.
+
 - **¿Tengo algún bloqueo/impedimento?:** 
+Todo bien.
+
+#### Raul
+- **¿Qué hice ayer?:** 
+  Diseñar las clases del programa.
+
+- **¿Qué voy a hacer hoy?:** 
+  Diseñar el uml.
+
+- **¿Tengo algún bloqueo/impedimento?:** *(Ninguno / Error en la conexión con la BD, falta definir endpoint, etc.)*
+
+Todo bien.
 
 ---
 
