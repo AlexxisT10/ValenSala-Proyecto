@@ -207,6 +207,42 @@ Todo bien.
 
 ---
 
+### Fecha: [28/10/2026]
+
+#### Alexis
+
+- **¿Qué hice ayer?:**
+  Comenzar a programar las tablas
+- **¿Qué voy a hacer hoy?:**
+  Acabar de programar las tablasç
+- **¿Tengo algún bloqueo/impedimento?:** _(Ninguno / Error en la conexión con la BD, falta definir endpoint, etc.)_
+
+De momento no.
+
+#### Rafa
+
+- **¿Qué hice ayer?:**
+  Acabar las vistas.
+- **¿Qué voy a hacer hoy?:**
+  Comenzar estructura frontend
+
+- **¿Tengo algún bloqueo/impedimento?:**
+  Todo bien
+
+#### Raul
+
+- **¿Qué hice ayer?:**
+  Continuar con la programación de clases
+
+- **¿Qué voy a hacer hoy?:**
+  Continuar con la programación
+
+- **¿Tengo algún bloqueo/impedimento?:** _(Ninguno / Error en la conexión con la BD, falta definir endpoint, etc.)_
+
+Todo bien.
+
+---
+
 ## 🔎 Revisión del Sprint (Sprint Review)
 
 - **Fecha de la Demo:** [07/10/2026]
