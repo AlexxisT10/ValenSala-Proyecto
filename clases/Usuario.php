@@ -6,7 +6,7 @@
        private $email = "";
        private $password = "";
        private $rol = "";
-       private $contadorUsuarios = 0;
+       private static $contadorUsuarios = 0;
        
        public function __construct($nombre,$email,$password,$rol)
        {
@@ -14,8 +14,8 @@
             $this->email = $email;
             $this->password = $password;
             $this->rol = $rol;
-            this->id = $contadorUsuarios;
-            $contadorUsuarios++;
+            $this->id = self::$contadorUsuarios;
+            self::$contadorUsuarios++;
        }
 
         public function registrar($nombre, $email,$password,$rol)
@@ -59,7 +59,7 @@
             }
 
         }
-        public function boolean esAdministrador($rol)
+        public function esAdministrador($rol)
         {
             if($rol == "Admin")
                 {
@@ -68,7 +68,7 @@
                 return false;
 
         }
-        public function boolean esArtista($rol)
+        public function esArtista($rol)
         {
             if($rol == "Artista")
             {
