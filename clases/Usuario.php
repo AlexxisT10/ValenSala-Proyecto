@@ -7,6 +7,7 @@
        private $password = "";
        private $rol = "";
        private static $contadorUsuarios = 0;
+       private static $conexion;
        
        public function __construct($nombre,$email,$password,$rol)
        {
@@ -38,7 +39,7 @@
                 try {
                         $sql = "INSERT INTO usuarios (nombre, email, password)
                                 VALUES (:nombre, :email, :password)";
-                        $consulta = $conexion->prepare($sql);
+                        $consulta = self::$conexion->prepare($sql);
 
                         $consulta->execute
                         ([
@@ -61,7 +62,7 @@
         }
         public function esAdministrador($rol)
         {
-            if($rol == "Admin")
+            if($rol == "cliente")
                 {
                     return true;
                 }
@@ -76,10 +77,7 @@
             }
             return false;
         }
-        public function iniciarSesion()
-        {
-              
-        }
+        
 
     }
 ?>

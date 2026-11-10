@@ -16,7 +16,8 @@ try {
         PDO::ERRMODE_EXCEPTION
     );
 
-} catch (PDOException $e) {
+} catch (PDOException $e) 
+{
     die("Error al conectar con la base de datos.");
 }
 ?>
