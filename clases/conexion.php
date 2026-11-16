@@ -1,23 +1,17 @@
 <?php
-$host = "localhost";
-$usuario = "root";
-$contrasena = "";
-$base_datos = "mi_web";
-
-try {
-    $conexion = new PDO(
-        "mysql:host=$host;dbname=$base_datos;charset=utf8mb4",
-        $usuario,
-        $contrasena
-    );
-
-    $conexion->setAttribute(
-        PDO::ATTR_ERRMODE,
-        PDO::ERRMODE_EXCEPTION
-    );
-
-} catch (PDOException $e) 
+function conectar()
 {
-    die("Error al conectar con la base de datos.");
+    $host = "192.168.67.229";   // IP de la VM
+    $port = "5432";
+    $db   = "ValenSala_DB";
+    $user = "raul";
+    $pass = "1234";
+
+    try {
+        $pdo = new PDO("pgsql:host=$host;port=$port;dbname=$db", $user, $pass);
+        $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+        return $pdo;
+    } catch (PDOException $e) {
+        die("Error de conexión: " . $e->getMessage());
+    }
 }
-?>
