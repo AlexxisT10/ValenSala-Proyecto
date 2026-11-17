@@ -79,10 +79,8 @@ Hem escollit para el sistema Linux perque es el que tenim a classe. Hem escollit
 - Diagrama d'arquitectura (mermaid)
 
 ```mermaid
-flowchart LR
-    A[Navegador<br/>Usuario] --> B[Apache<br/>Linux]
-    B --> C[PHP<br/>lógica]
-    C --> D[(PostgreSQL<br/>otra máquina virtual)]
+ Navegador  -->  Apache  -->  PHP  -->  PostgreSQL
+ (usuario)       (Linux)     (lógica)   (otra VM)
 ```
 
 El usuario abre la web en su navegador, Apache la sirve y PHP se encarga de la lógica. Cuando hace falta guardar o pedir datos, PHP habla con la base de datos PostgreSQL, que está en otra máquina virtual.
