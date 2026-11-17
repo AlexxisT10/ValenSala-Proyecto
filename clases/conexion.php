@@ -4,7 +4,7 @@ function conectar()
     $host = "192.168.67.229";   // IP de la VM
     $port = "5432";
     $db   = "ValenSala_DB";
-    $user = "raul";
+    $user = "postgres";
     $pass = "1234";
 
     try {
