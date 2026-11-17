@@ -40,16 +40,14 @@ Estimació de punts de les User Stories (Planning Poker / Fibonacci)
 
 !!! TIP Pots organitzar les User Stories en una taula:
 
-| ID | Com a... | Vull... | Per a... | Punts |
-|----|----------|---------|----------|-------|
-| US01 | | | | |
-ID	Com a...	Vull...	Per a...	Punts
-US01	Desarrollador	tener una plantilla del programa	tener la base del proyecto	6
-US02	Desarrollador	tener una vista del proyecto	tener las páginas organizadas	4
-US03	Desarrollador	tener una plantilla de base de datos	poder crear la base de datos	8
-US04	Usuario	registrarme	tener mi cuenta	3
-US05	Usuario	ver las salas de Valencia	saber dónde hay música en directo	2
-US06	Usuario	ver los conciertos con filtros	encontrar el que me interesa	5
+| ID   | Com a...      | Vull...                              | Per a...                          | Punts |
+|------|---------------|--------------------------------------|-----------------------------------|-------|
+| US01 | Desarrollador | tener una plantilla del programa     | tener la base del proyecto        | 6     |
+| US02 | Desarrollador | tener una vista del proyecto         | tener las páginas organizadas     | 4     |
+| US03 | Desarrollador | tener una plantilla de base de datos | poder crear la base de datos      | 8     |
+| US04 | Usuario       | registrarme                          | tener mi cuenta                   | 3     |
+| US05 | Usuario       | ver las salas de Valencia            | saber dónde hay música en directo | 2     |
+| US06 | Usuario       | ver los conciertos con filtros       | encontrar el que me interesa      | 5     |
 3. Estructura Git
 Diagrama de l'estructura de branques (Gitflow, Trunk-based, etc.) amb mermaid
 
