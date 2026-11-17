@@ -76,7 +76,14 @@ Justificació de la tria de cada tecnologia
 
 Hem escollit para el sistema Linux perque es el que tenim a classe. Hem escollit apache perque es el que anem a gastar en classe. Hem escollit php perque vuiguem practcar php. Hem escollit postgres perque sabem utilitzar-ho. Hem escollit Html i css perque es el estandar hui en dia
 
-Diagrama d'arquitectura (mermaid)
+- Diagrama d'arquitectura (mermaid)
+
+```mermaid
+flowchart LR
+    A[Navegador<br/>Usuario] --> B[Apache<br/>Linux]
+    B --> C[PHP<br/>lógica]
+    C --> D[(PostgreSQL<br/>otra máquina virtual)]
+```
 
 El usuario abre la web en su navegador, Apache la sirve y PHP se encarga de la lógica. Cuando hace falta guardar o pedir datos, PHP habla con la base de datos PostgreSQL, que está en otra máquina virtual.
 
